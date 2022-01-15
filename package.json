@@ -1,8 +1,12 @@
 {
-  "name": "http-client",
+  "name": "@mogu-market/http-client",
   "version": "0.0.1",
   "description": "",
   "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mogu-market/http-client"
+  },
   "scripts": {
     "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
     "build": "tsc"
