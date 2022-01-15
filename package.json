@@ -3,13 +3,14 @@
   "version": "0.0.4",
   "description": "",
   "main": "dist/main.js",
+  "types": "main.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/mogu-market/http-client"
   },
   "scripts": {
     "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
-    "build": "tsc"
+    "build": "tsc && tsc --emitDeclarationOnly true --out main.d.ts"
   },
   "keywords": [],
   "author": "",
