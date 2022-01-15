@@ -2,7 +2,7 @@
   "name": "@mogu-market/http-client",
   "version": "0.0.3",
   "description": "",
-  "main": "main.js",
+  "main": "dist/main.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/mogu-market/http-client"
